@@ -1,0 +1,5 @@
+Evolventa font family
+Copyright (c) 2016 Alex I. Kuznetsov.
+Contains work by URW++ Design and Development GmbH: URW Gothic L version 001.005, Copyright URW Software, Copyright 1996 by URW.
+Distributed without modification under GPL version 2 or LPPL version 1.3c or later (your choice). See GPL.txt and LPPL.txt.
+Source: https://github.com/evolventa/evolventa
