@@ -1,0 +1,32 @@
+<svg aria-label="Схема соединений Arduino, LIS331DLH, светодиода, пьезоизлучателя и батареи" role="img" viewBox="0 0 1120 640" xmlns="http://www.w3.org/2000/svg">
+<style>text{font-family:Arial,sans-serif;fill:#173747;font-size:20px}.small{font-size:17px}.wire{fill:none;stroke:#315c73;stroke-width:3}.power{stroke:#bf4535}.ground{stroke:#353f45}.node{fill:#315c73}</style>
+<rect fill="#f2f6f8" height="640" rx="16" width="1120"></rect>
+<rect fill="#cae4e7" height="430" rx="20" stroke="#315c73" stroke-width="2" width="230" x="400" y="100"></rect>
+<text font-weight="bold" x="442" y="142">ARDUINO UNO</text>
+<text x="415" y="195">5V</text><text x="415" y="245">GND</text><text x="415" y="295">A4 / SDA</text><text x="415" y="345">A5 / SCL</text>
+<text x="575" y="195">D6</text><text x="575" y="295">D9</text><text x="555" y="475">VIN</text><text x="545" y="515">GND</text>
+<rect fill="#d7e9d8" height="220" rx="12" width="205" x="30" y="145"></rect>
+<text font-weight="bold" x="45" y="180">AMP-B041</text>
+<text x="50" y="214">V</text><text x="50" y="254">G</text><text x="50" y="294">D</text><text x="50" y="334">C</text>
+<path class="wire power" d="M110 207H275V188H400"></path><path class="wire ground" d="M110 247H290V238H400"></path>
+<path class="wire" d="M110 287H400M110 327H310V338H400"></path>
+<text class="small" x="34" y="400">Амперка AMP-B041</text><text class="small" x="34" y="425">Питание V: 3,3–5 В.</text>
+<path class="wire" d="M630 188H660m90 0h35m40 0h120v32"></path>
+<rect fill="white" height="24" stroke="#315c73" stroke-width="2" width="90" x="660" y="176"></rect><text class="small" x="671" y="164">330 Ом</text>
+<path d="M785 172L811 188L785 204ZM818 171V205" fill="#dcaa35" stroke="#315c73" stroke-width="2"></path>
+<text class="small" x="770" y="142">LED, анод слева (+)</text><text class="small" x="928" y="245">GND</text>
+<path class="wire" d="M630 288H660m90 0h130v32M790 288V352M790 412V470H930"></path>
+<rect fill="white" height="24" stroke="#315c73" stroke-width="2" width="90" x="660" y="276"></rect><text class="small" x="680" y="263">1 кОм</text>
+<circle class="node" cx="790" cy="288" r="5"></circle>
+<rect fill="white" height="60" stroke="#315c73" stroke-width="2" width="24" x="778" y="352"></rect><text class="small" x="688" y="390">1,5 кОм</text>
+<rect fill="#fff0cc" height="85" rx="30" stroke="#315c73" stroke-width="2" width="70" x="847" y="320"></rect>
+<text x="872" y="344">+</text><text x="875" y="395">−</text><path class="wire ground" d="M880 405V470"></path><circle class="node" cx="880" cy="470" r="5"></circle>
+<text class="small" x="928" y="350">PS1240P02BT</text><text class="small" x="928" y="376">пассивный</text><text class="small" x="932" y="475">GND</text>
+<rect fill="#ece0c6" height="102" rx="10" width="147" x="33" y="480"></rect>
+<text x="50" y="517">Крона 9 В</text><text x="51" y="548">+</text><text x="130" y="548">−</text>
+<path class="wire power" d="M60 555V610H1030V560H1045M1075 560H1090V500H690V468H630"></path>
+<path class="wire power" d="M1045 560L1071 542"></path><text class="small" x="850" y="542">Выключатель</text>
+<path class="wire ground" d="M139 555V592H650V508H630"></path>
+<text class="small" x="35" y="55">Все обозначения GND соединить с GND Arduino. Пересечения без точки не соединять.</text>
+<text class="small" x="35" y="83">9 В подавать только на VIN. Светодиод и пьезоизлучатель подключать через указанные резисторы.</text>
+</svg>
