@@ -108,3 +108,14 @@ dialog{width:min(100vw,550px);max-width:100vw;max-height:calc(100dvh - 18px);mar
 @media(max-width:350px){
  .mobile-head .home-wordmark{font-size:24px;letter-spacing:-1.8px}
 }
+
+/* x.lab — consistent mobile header baseline and optical wordmark alignment. */
+
+@media(max-width:700px){
+ :root{--mobile-head-h:calc(64px + env(safe-area-inset-top,0px));--head-mobile:calc(64px + env(safe-area-inset-top,0px))}
+ .mobile-head{box-sizing:border-box;height:calc(64px + env(safe-area-inset-top,0px));min-height:calc(64px + env(safe-area-inset-top,0px));padding:calc(10px + env(safe-area-inset-top,0px)) 16px 10px;align-items:center}
+ .mobile-head .home-link{display:inline-flex;align-items:center;height:44px;min-height:44px;gap:5px}
+ .mobile-head .home-wordmark{display:block;font-family:Evolventa,Arial,sans-serif;font-size:27px;font-weight:700;line-height:1;letter-spacing:-2.1px;transform:translateY(-2px)}
+ .mobile-head .home-arrow{display:block;align-self:center;width:19px;height:19px;flex:0 0 19px}
+}
+@media(max-width:350px){.mobile-head .home-wordmark{font-size:24px;letter-spacing:-1.8px}.mobile-head .home-arrow{width:17px;height:17px;flex-basis:17px}}
