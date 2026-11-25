@@ -13,3 +13,9 @@ h1,h2,h3{color:#082567}h1{font-weight:700;letter-spacing:-1.8px;line-height:1.12
 /* Shared RGSU identity: saturated university blue, white and cool blue tints. */
 :root{--rgsu-blue:#082567;--green:var(--rgsu-blue);--lime:#d5e4f4;--paper:#f5f7fc;--ink:#142447;--muted:#596783;--line:#dce3f0;--warm:#edf3fc}
 .note.warm{background:#edf3fc;border-color:#d5e4f4}.btn.primary:hover{background:#123e8d}.sidebar .brand{color:#fff}.sidebar .brand-sub{color:#b5c9ea}.mobile-head .brand{color:var(--rgsu-blue)}.btn.primary,.step-nav button.active,.hotspot,.step-number,.sidebar nav a.active{background:var(--rgsu-blue);border-color:var(--rgsu-blue)}.eyebrow,.text-link,.file-link,.spec-strip strong{color:var(--rgsu-blue)}
+
+/* x.lab CAD backgrounds — shared studio palette, original geometry and layout. */
+:root{--cad-studio:linear-gradient(180deg,#fafcff 0%,#e6edf7 100%)}
+.device-stage,.dialog-image,.step-content .step-figure{background:var(--cad-studio)}
+.device-view img,.component-card img,.dialog-image img,.step-content .step-figure img{mix-blend-mode:normal}
+.component-card img{background:var(--cad-studio)}
