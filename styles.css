@@ -96,3 +96,5 @@ dialog{width:min(100vw,550px);max-width:100vw;max-height:calc(100dvh - 18px);mar
 @media(prefers-reduced-motion:reduce){.home-link:hover .home-arrow{transform:none}}
 .sidebar .home-link{color:white}.sidebar .home-link+.brand{font-size:19px;margin-bottom:8px}.sidebar .home-link+.brand .brand-sub{font-size:11px}
 @media(max-width:700px){.sidebar>.home-link{display:none}}
+
+@media(max-width:700px){.mobile-head .mobile-project .project-short-name{font-size:inherit;font-weight:inherit;color:inherit;background:none;padding:0;border-radius:0;flex:0 1 auto}}
